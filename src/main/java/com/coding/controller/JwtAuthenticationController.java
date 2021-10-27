@@ -19,6 +19,12 @@ import com.coding.model.JwtResponse;
 import com.coding.model.UserDTO;
 import com.coding.service.JwtUserDetailsService;
 
+
+/**
+ * RestController to define Register and Authentication classes
+ * @author Fenil
+ *
+ */
 @RestController
 @CrossOrigin
 public class JwtAuthenticationController {
@@ -49,12 +55,6 @@ public class JwtAuthenticationController {
 		return ResponseEntity.ok(userDetailsService.save(user));
 	}
 	
-	@RequestMapping(value = "/getUserDetails", method = RequestMethod.GET)
-	public ResponseEntity<?> getUserDetails() throws Exception {
-		return ResponseEntity.ok("Successfull");
-	}
-
-
 	private void authenticate(String username, String password) throws Exception {
 		try {
 			authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));

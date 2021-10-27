@@ -14,6 +14,12 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
+
+/**
+ * JWT class to generate, validate and define Token Parameters.
+ * @author Fenil
+ *
+ */
 @Component
 public class JwtTokenUtil implements Serializable {
 

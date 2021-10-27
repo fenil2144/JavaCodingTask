@@ -2,6 +2,12 @@ package com.coding.model;
 
 import java.io.Serializable;
 
+
+/**
+ * Model Class for Jwt request.
+ * @author Fenil
+ *
+ */
 public class JwtRequest implements Serializable {
 
 	private static final long serialVersionUID = 5926468583005150707L;

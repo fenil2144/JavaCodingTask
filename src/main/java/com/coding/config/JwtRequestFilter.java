@@ -19,6 +19,11 @@ import com.coding.service.JwtUserDetailsService;
 
 import io.jsonwebtoken.ExpiredJwtException;
 
+/**
+ * This class is used to authenticate request via JWT token
+ * @author Fenil Shah
+ *
+ */
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 

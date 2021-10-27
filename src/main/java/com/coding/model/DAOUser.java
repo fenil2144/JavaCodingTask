@@ -4,6 +4,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 
+
+/**
+ * Model Class to define user that interacts with Database
+ * @author Fenil
+ *
+ */
 @Entity
 @Table(name = "user")
 public class DAOUser {
@@ -16,6 +22,17 @@ public class DAOUser {
 	@Column
 	@JsonIgnore
 	private String password;
+	
+	@Column
+	private String role;
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
 
 	public String getUsername() {
 		return username;
