@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Built-By: DELL
 Build-Jdk: 16.0.2
-Implementation-Title: spring-boot-jwt
+Implementation-Title: java-coding-task
 Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: com.javainuse
+Implementation-Vendor-Id: com.coding
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
- -starter-parent/spring-boot-jwt
+ -starter-parent/java-coding-task
 Created-By: Maven Integration for Eclipse
 
